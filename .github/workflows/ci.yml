@@ -1,0 +1,24 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: |
+          pip install -r backend/requirements.txt -r backend/requirements-dev.txt
+      - name: Lint (ruff)
+        run: |
+          pip install ruff
+          ruff check backend
+      - name: Tests
+        run: |
+          python -m pytest

@@ -1,0 +1,15 @@
+# Environment / secrets
+config/.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Virtual env
+.venv/
+
+# Local data / models
+data/processed/
+models/

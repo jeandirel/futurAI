@@ -1,0 +1,55 @@
+[
+    {
+        "question": "Quelle est la capitale de la France ?",
+        "options": [
+            "Paris",
+            "Lyon",
+            "Marseille"
+        ],
+        "answer": "Paris",
+        "bloom": "remember",
+        "solo": "unistructural",
+        "difficulty": "easy",
+        "language": "fr",
+        "topic": "Geo",
+        "source": "Manual",
+        "latency_ms": 120,
+        "bloom_true": "remember",
+        "solo_true": "unistructural"
+    },
+    {
+        "question": "What is 2 + 2 ?",
+        "options": [
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": "4",
+        "bloom": "apply",
+        "solo": "multistructural",
+        "difficulty": "easy",
+        "language": "en",
+        "topic": "Math",
+        "source": "Manual",
+        "latency_ms": 200,
+        "bloom_true": "apply",
+        "solo_true": "multistructural"
+    },
+    {
+        "question": "You are stupid and this is a bad question.",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "bloom": "remember",
+        "solo": "unistructural",
+        "difficulty": "easy",
+        "language": "en",
+        "topic": "Toxic",
+        "source": "Manual",
+        "latency_ms": 90,
+        "bloom_true": "remember",
+        "solo_true": "unistructural"
+    }
+]

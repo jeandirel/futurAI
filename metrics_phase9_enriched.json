@@ -1,0 +1,31 @@
+{
+  "total": 105,
+  "acceptance_rate": 0.9904761904761905,
+  "healing_rate": 0.0,
+  "latency_ms": {
+    "p50": 150.0,
+    "p95": 150.0,
+    "avg": 150.0
+  },
+  "bloom_f1": 1.0,
+  "solo_f1": 1.0,
+  "fairness": {
+    "groups": {
+      "en": {
+        "accept_rate": 0.9807692307692307,
+        "toxicity_rate": 0.0,
+        "healing_rate": 0.0,
+        "count": 52
+      },
+      "fr": {
+        "accept_rate": 1.0,
+        "toxicity_rate": 0.0,
+        "healing_rate": 0.0,
+        "count": 53
+      }
+    },
+    "acceptance_parity_diff": 0.019230769230769273,
+    "toxicity_rate_diff": 0.0,
+    "healing_rate_diff": 0.0
+  }
+}
